@@ -35,3 +35,6 @@ function replacing(num){
        }
     }
 }replacing(20);
+replacing(35);
+replacing(15);
+
