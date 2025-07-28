@@ -2,7 +2,7 @@
 function findArmstrong(num) {
     let str = num.toString(); // Convert number to string
     let length = str.length; // Get the number of digits
-    let sum = 0;
+    let sum = 0; 
 
     // Loop through each digit, raise it to the power of 'length', and add to sum
     for (let digit of str) {
@@ -19,7 +19,7 @@ console.log(findArmstrong(123)); // false (Not an Armstrong number)
 console.log(findArmstrong(9474)); // true (Armstrong number)
 console.log(findArmstrong(9475)); // false (Not an Armstrong number)//
 
-//ques -22 write a program that prints numbers from 1 to N replacing multiple of 3 with "fizz" multiples of 5 with "buzz" multiple of both 3&5 with "fizzbuzz"
+//ques -22 write a program that prints numbers from 1 to N replacing multiple of 3 and  with "fizz" multiples of 5 with "buzz" multiple of both 3&5 with "fizzbuzz"
 function replacing(num){
     for (let i = 1; i <= num; i++) {
        if (i%3==0) {
