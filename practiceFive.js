@@ -1,6 +1,6 @@
 //que-21 write a program that checks if a number is armstrong or not
 function findArmstrong(num) {
-    let str = num.toString(); // Convert number to string
+    let str = num.toString();// Convert number to string
     let length = str.length; // Get the number of digits
     let sum = 0; 
 
