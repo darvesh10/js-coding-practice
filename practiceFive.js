@@ -6,7 +6,7 @@ function findArmstrong(num) {
 
     // Loop through each digit, raise it to the power of 'length', and add to sum
     for (let digit of str) {
-        sum += Math.pow(parseInt(digit), length);
+        sum += Math.pow(parseInt(digit), length);//
     }
 
     // Check if sum equals the original number
